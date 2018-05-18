@@ -1,0 +1,39 @@
+.CloseList{
+    height: 4rem;
+    margin-top: .35rem;
+    display: flex;
+    flex-direction: column;
+    background: url('./../../../../assert/img/home-6.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.CloseList .Part-Title{
+    margin-left: .2rem;
+    line-height: .3rem
+}
+
+.CloseList-Box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 .2rem;
+}
+
+.CloseList-list{
+    display: flex;
+    border-bottom: 1px solid #b3b3b3;
+    align-items: center;
+    height: .65rem;
+    padding: .31rem 0 .14rem .24rem
+}
+
+.CloseList-Circle{
+    border-radius: 50%;
+    width: .14rem;
+    height: .14rem;
+}
+
+.CloseList-Title{
+    font-size: .18rem;
+    color: #fff;
+}

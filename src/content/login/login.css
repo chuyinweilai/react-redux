@@ -1,0 +1,119 @@
+
+.login-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url('./../../assert/img/login-bg.png') no-repeat center;
+    background-size: cover;
+}
+
+.login-Input-Box{
+	width: 5.75rem;
+	height: 3.3rem;
+	background-color: rgba(28, 125, 250, 0.1);
+	border-radius: .2rem;
+    border: solid 1px #2795c6;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: .57rem;
+}
+
+.login-user{
+	width: 3.68rem;
+	height: .56rem;
+	background-color: rgb(28, 125, 250);
+    border: solid 1px #2795c6;
+    margin-bottom: .48rem;
+    border-radius: .28rem;
+    display: flex;
+}
+
+.login-user .fa{
+    display: inline-block;
+    width: .64rem;
+    height: .32rem;
+    line-height: .32rem;
+    margin: .12rem;
+    font-size: .3rem;
+    color: white;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.login-password{
+	width: 3.68rem;
+	height: .56rem;
+	/* background-color: rgba(28, 125, 250, 0.17); */
+	background-color: rgb(28, 125, 250);
+    border: solid 1px #2795c6;
+    margin-bottom: .48rem;
+    border-radius: .28rem;
+    display: flex;
+    margin-top: .35rem;
+}
+
+.login-password .fa{
+    display: inline-block;
+    width: .64rem;
+    height: .32rem;
+    line-height: .32rem;
+    margin: .12rem;
+    font-size: .24rem;
+    color: white;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.login-form-input{
+	width: 2.8rem;
+    height: .5rem;
+    color: white;
+    background: rgba(0,0,0,0);
+    outline: none;
+    border: none;
+    font-size: .16rem;
+    margin: .03rem .22rem .03rem 0;
+    -webkit-box-shadow: 0 0 0px 1000px rgb(28, 125, 250) inset;
+    -webkit-text-fill-color: #fff;
+}
+
+.login-form-button{
+    margin-top: 1.3rem;
+    margin-bottom: .32rem;
+	width: 5.76rem;
+	height: .66rem;
+	background-color: rgba(28, 125, 250, .12);
+    border: solid 1px #2795c6;
+    border-radius: .33rem;
+	font-size: .3rem;
+    font-weight: 100;
+}
+
+.login-form-button:hover{
+	background-color: rgba(28, 125, 250, .75);
+}
+
+.login-form .ant-alert-error{
+	width: 5.76rem;
+    height: .42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: rgba(255, 0, 0, 0.13);
+	border: solid 1px #ff0000;
+    border-radius: .21rem;
+    font-size: .16rem;
+    color: #fafafa;
+    padding: 0;
+}
+
+.login-form  .ant-form-explain{
+    margin-top: .1rem;
+    color: white;
+}
+
+.login-box .ant-form-item-control{
+    height: .5rem;
+    line-height: 0;
+}

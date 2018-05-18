@@ -1,0 +1,26 @@
+.Black-Box{
+  background: rgba(0,0,0,0.19);
+}
+
+.Part-bg{
+  background: rgba(28, 125, 250, 0.12);
+}
+
+.H2-Title{
+  text-align: center;
+  font-size: .24rem;
+  color: white;
+  font-weight: normal;
+}
+
+.Part-Title{
+    color: white;
+    font-size: .24rem;
+    height: .44rem;
+    font-weight: normal;
+}
+
+.Part-Title .fa{
+  margin-left: .15rem;
+  margin-right: .05rem;
+}

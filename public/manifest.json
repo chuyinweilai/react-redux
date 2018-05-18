@@ -1,0 +1,13 @@
+{
+    "short_name": "智慧社区",
+    "name": "Create By Corey",
+    "icons": [{
+        "src": "./favicon.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#fff000",
+    "background_color": "#ffff00"
+}

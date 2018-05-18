@@ -1,0 +1,95 @@
+.Stranger-title{
+  margin-bottom: .4rem;
+  
+  input{
+    color: white;
+    background: rgba(0, 160, 233, 0.19);
+    border: 1px solid #04a3fe;
+  }
+
+  .ant-input-suffix i{
+    color: white;
+  }
+}
+
+/* 异常详情 */
+
+.card-unusual-title{
+  h2{
+    font-size: .24rem;
+    color: white;
+    margin-bottom: .4rem;
+  }
+  
+  button{
+    float: right;
+  }
+}
+
+.card-user-image{
+  display: flex;
+  width: 6rem;
+  color: white;
+  align-items: center;
+  border: 1px solid #eee;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    display: block;
+    height: 3rem;
+    width: 5.3rem;
+    text-align: center;
+    font-size: .16rem;
+    border: 1px solid #eee;
+    margin-top: .2rem;
+  }
+
+  h4{
+    font-size: .16rem;
+    color: white;
+    margin-top: .2rem;
+  }
+}
+
+.card-home-image{
+  display: flex;
+  width: 5rem;
+  color: white;
+  align-items: center;
+  border: 1px solid #eee;
+  flex-direction: column;
+  align-items: center;
+  
+  .card-image-box{
+    height: 3rem;
+    width: 4rem;
+    text-align: center;
+    font-size: .16rem;
+    border: 1px solid #eee;
+    margin-top: .2rem;
+
+    img{
+      display: block;
+      height: 3rem;
+      width: 4rem;
+      color: white;
+    }
+  
+    .ant-carousel{
+      height: 3rem;
+      width: 4rem;
+    }
+  }
+
+  .carousel-ctrl{
+    margin-bottom: .15rem;
+    text-align: center;
+  
+    h4{
+      font-size: .16rem;
+      color: white;
+      margin-top: .2rem;
+    }
+  }
+}

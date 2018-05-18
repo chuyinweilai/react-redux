@@ -1,0 +1,49 @@
+.MainPage{
+  overflow: hidden; 
+  box-sizing:border-box;
+  min-height: 100vh;
+  flex-direction: column;
+  background: transparent;
+}
+
+.Main-Content{
+  background: rgba(0,0,0,0);
+  flex: 1;
+  overflow: hidden;
+}
+
+.Main-Sider {
+  width: 3.5rem;
+  display: inline-block;
+  position: relative;
+	background-color: rgba(2, 2, 2, 0.24);
+}
+
+.siderSwitch{
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600
+}
+
+.Sider-Collapsed{
+  width: 3.59rem;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  background: #3a3a3a;
+}
+
+.ant-layout-sider-trigger{
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  background: #3a3a3a;
+  text-align: center;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.siderSwitch{
+  color: white;
+  text-align: center;
+}

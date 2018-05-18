@@ -1,0 +1,276 @@
+$index: 'index';
+
+.IntradayWarning-Top-List{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.IntradayWarning-topCard{
+  margin-top: .3rem;
+  width: 3rem;
+}
+
+.IntradayWarning-topCard-title{
+  color: white;
+  height: .7rem;
+  margin: 0;
+  font-size: 0.29rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: .69rem;
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+.IntradayWarning-topCard-title .fa{
+  margin-right: .1rem;
+}
+
+.IntradayWarning-topCard-Bottom{
+  padding: .1rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.IntradayWarning-topCard-Bottom-1{
+  display: block;
+  font-size: 1.06rem;
+  text-align: center;
+}
+
+.IntradayWarning-topCard-Bottom-2{
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: .54rem;
+  
+}
+
+.IntradayWarning-topCard-Bottom-1 span{
+  font-size: 0.15rem;
+}
+
+/* 底部 */
+.IntradayWarning-Bottom{
+  margin-top: .3rem;
+  padding-bottom: .2rem;
+  background: url('./../../../assert/img/warning-1.png') no-repeat top;
+  background-size: 100% 100%;
+}
+
+.IntradayWarning-Bottom{
+  h3{
+    height: .42rem;
+    line-height: .42rem;
+    color: white;
+    margin-left: .8rem;
+    font-size: .25rem;
+  }
+
+  .Button{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    padding-top: .1rem;
+
+    input{
+      color: white;
+      width: 3rem;
+      height: 32px;
+      line-height: 1.5;
+      background: rgba(0, 160, 233, 0.19);
+      border: 1px solid #04a3fe;
+      border-radius: 5px;
+      font-size: 14px;
+      outline: none;
+      margin-right: .4rem;
+      padding-left: 10px;
+    }
+  }
+
+  .Table{
+    margin: .2rem 0.04rem;
+  }
+}
+
+/* 弹窗 */
+.ModalDetail-Modal{
+  .ant-card-head{
+    background-color: rgba(12, 13, 54, 0);
+    text-align: center;
+
+    .ant-card-head-title{
+      font-weight: 600;
+      color: white;
+    }
+  }
+  .ant-modal-body{
+    padding: 0;
+  }
+}
+
+.ModalDetail{
+	background-color: rgba(12, 13, 54, 0);
+  border: solid 1px #04a3fe;
+}
+
+.ModalDetail .fa{
+  font-size: .2rem;
+  margin: 0 .1rem .1rem 0;
+}
+
+.ModalDetail-Top{
+  padding-bottom: .2rem;
+}
+
+.ModalDetail-Top 
+{
+  .Image img{
+    width: 100%;
+    height: 2.46rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(52, 122, 182, 0.1);
+    border-radius: 3px;
+    border: solid 1px #347ab6;
+  }
+
+  ul{
+    height: .8rem;
+    padding: .2rem;
+    display: flex;
+    margin-bottom: .2rem;
+    background-color: rgba(52, 122, 182, 0.1);
+    border-radius: 3px;
+    border: solid 1px #347ab6;
+    
+  }
+
+  ul>li{
+    font-size: .16rem;
+    display: flex;
+    flex: 1;
+    color: white;
+    flex-direction: row;
+  }
+
+  .Warning-Reason-Box{
+    display: flex; 
+    flex: 1; 
+    flex-direction: column; 
+    height: 3.26rem;
+  }
+
+  .Warning-Reason{
+    // height: 2.46rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: .16rem;
+    background-color: rgba(52, 122, 182, 0.1);
+    border-radius: 3px;
+    border: solid 1px #347ab6;
+
+    .ant-card-head{
+      text-align: center;
+      padding: 0;
+      background-color: rgba(52, 122, 182, 0.1);
+      height: .5rem;
+    }
+
+    .ant-card-head {
+      h3{
+        width: 100%;
+        color: white;
+        font-size: .18rem;
+      }
+    }
+    
+    .ant-card-body{
+      color: white;
+      padding: .24rem;
+    }
+  }
+
+  .Video-Button{
+    width: 100%;
+    height: .6rem;
+    font-size: .24rem;
+    margin-top: .2rem;
+    line-height: .6rem;
+  }
+
+  .Video-Button>.fa{
+    line-height: .6rem;
+    color: white;
+  }
+}
+.ModalDetail-Bottom{
+  .Radio{
+    display: block;
+    margin: .05rem 0;
+    font-size: .16rem;
+    color: white;
+  }
+
+  .ant-radio-inner{
+    background: rgba(0,0,0,0)!important;
+  }
+
+  .Radio input{
+    margin-left: .1rem;
+    width:.99rem;
+    background-color: rgba(52, 122, 182, 0.1);
+    border-radius: 3px;
+    border: solid 1px #347ab6;
+  }
+
+  .TextArea {
+    width: 100%;
+    height: 1.44rem;
+    color: white;
+    background-color: rgba(52, 122, 182, 0.1);
+    border: solid 1px #5bc0de;
+  }
+}
+
+.PushTo{
+  font-size: .3rem;
+  font-weight: 600;
+  color: #ff6666;
+}
+
+// 详情页
+.intraday-detail-search{
+  justify-content: flex-end;
+  height: 32; 
+  margin-bottom: .2rem;
+
+  input{
+    color: white;
+    background: rgba(0, 160, 233, 0.19);
+    border: 1px solid #04a3fe;
+  }
+  .ant-input-suffix i{
+    color: white
+  }
+}
+
+// style={{justifyContent:'flex-end', marginBottom: '.2rem'}}
+.intraday-detail-datepicker{
+  justify-content: flex-end;
+  margin-bottom: .2rem;
+
+  input{
+    color: white;
+    background: rgba(0, 160, 233, 0.19);
+    border: 1px solid #04a3fe;
+  }
+
+  .ant-calendar-picker-icon::after{
+    color: white
+  }
+}
+
+.ant-calendar{
+  border: 2px solid #04a3fe;
+}

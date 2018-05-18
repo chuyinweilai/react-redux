@@ -1,0 +1,50 @@
+.card-root-title{
+  font-size: .25rem;
+  color: white;
+  margin: .34rem 0;
+}
+
+.card-root-search{
+  height: 30px;
+  display: flex;
+  padding: 0;
+
+  input{
+    color: white;
+    background: transparent;
+    border: solid 1px #04a3fe;
+  }
+
+  span i{
+    color: white;
+  }
+
+  .ant-input-suffix{
+    right: 0!important;
+    bottom: 0;
+    background: #04a3fe;
+    height: 32px;
+    width: 40px;
+    border-radius: 4px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+.card-root-table{
+  margin: .7rem 0;
+  
+  .ant-table-thead > tr > th, 
+  .ant-table-tbody > tr > td{
+      border: none;
+      border-bottom: 1px solid rgba(4, 163, 254, 0.5);
+  }
+  
+  .ant-table-thead > tr > th{
+    border-top: 2px solid #04a3fe;
+  }
+
+  .ant-table-tbody > tr:last-child > td{
+    border-bottom: 2px solid #04a3fe;
+  }
+}

@@ -1,0 +1,95 @@
+.Browser{
+    display: flex;
+    height: 4rem;
+    margin-top: .35rem;
+    flex-direction: column;
+    padding: .04rem;
+    background: url('./../../assert/img/home-4.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.Browser .Part-Title{
+    margin-left: .2rem;
+    line-height: .2rem
+}
+
+.Browser-Charts{
+    display: flex;
+    padding: .11rem 0;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1c7dfa
+}
+
+.browser-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browser-area {
+    width: .67rem;
+    height: .67rem;
+    color: white;
+    text-align: center;
+    font-size: .2rem;
+    line-height: .67rem;
+    font-weight: normal;
+    border-radius: 50%;
+    border-width: 1px;
+}
+
+.browser-circle {
+    width: 1.98rem;
+    height: .67rem;
+    display: flex;
+    overflow: hidden
+}
+
+.browser-circle-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: .24rem;
+    font-weight: 600;
+    color: white;
+    line-height: .8rem;
+    border-top-left-radius: 46%;
+    border-bottom-left-radius: 46%;
+}
+
+.browser-circle-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .24rem;
+    font-weight: 600;
+    color: white;
+    line-height: .8rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.Browser-Text{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.browser-square{
+    display: inline-block;
+    width: .1rem;
+    height: .1rem; 
+    margin-right: .09rem;
+    border-radius: 50%;
+}
+
+.browser-tips{
+    color: white;
+    font-size: .14rem;
+    margin-right: .09rem;
+}

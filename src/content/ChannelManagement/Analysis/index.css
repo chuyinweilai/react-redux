@@ -1,0 +1,19 @@
+
+/* 1 */
+
+/* 2 */
+.AnalysisTips-List{
+  height: 3rem;
+  display: flex;
+  padding: 0.5rem;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: left;
+}
+
+.AnalysisTips-Contant{
+  font-size: .3rem;
+  line-height: .5rem;
+  color: #ccc;
+}

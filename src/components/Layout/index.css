@@ -1,0 +1,88 @@
+/* 头部样式 */
+.header{
+  border-bottom: 1px solid #1c7dfa;
+  background: rgba(0, 0, 0, 0);
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-Phorai{
+	height: 26px;
+  font-size: .33rem;
+  font-weight: normal;
+  margin: 0 .2rem;
+  color: #e37e1e;
+}
+
+.logo-Phorai i{
+  font-size: .33rem;
+  font-style:normal;
+	color: #2b9dcd;
+}
+
+.logo-Text{
+  font-size: .24rem;
+  font-weight: normal;
+	color: #ffffff;
+}
+
+.Header-Title{
+  color: #eee;
+  margin-right: 20; 
+  font-size: .2rem; 
+}
+
+.Header-Content{
+  display: inline-block;
+  min-width: 1rem;
+  color: white;
+  margin-right: 20px; 
+  font-size: .2rem; 
+}
+
+/* 侧边栏样式 */
+.Sider-List{
+  border: none;
+}
+
+.ant-menu{
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+}
+
+.ant-menu-inline .ant-menu-item, 
+.ant-menu-inline .ant-menu-submenu-title{
+  height: .72rem!important;
+  line-height: .72rem!important;
+  font-size: 20px;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item{
+  height: .6rem!important;
+  line-height: .6rem!important;
+  font-size: 18px;
+  border: none;
+}
+
+.Menu-Sub .ant-menu, .Menu-Sub .ant-menu-submenu-title{
+  background: rgba(0,0,0,0);
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: rgba(0,0,0,0.2)
+}
+
+.ant-menu-item-active{
+  background: rgba(0,0,0,0.12)
+}
+
+.Menu-Sub-oTitle{
+  border-bottom: 1px solid rgba(238, 238, 238,0.2);
+}
+
+.ant-menu .fa{ 
+  font-size: 20px;
+  margin-right: 20px;
+}

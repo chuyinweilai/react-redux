@@ -1,0 +1,19 @@
+.WarningHistory{
+  margin-top: .35rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  background: url('./../../../../assert/img/home-5.png') no-repeat;
+  background-size:100% 100%;
+}
+
+.WarningHistory .Part-Title{
+  margin-left: .48rem;
+  line-height: .2rem;
+}
+
+.WarningHistory-Table{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

@@ -1,0 +1,12 @@
+
+.IOrecent{
+  height: 4rem;
+  margin-top: .35rem;
+  background: url('./../../../../assert/img/home-3.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.IOrecent .Part-Title{
+  margin-left: .5rem;
+  line-height: .2rem
+}

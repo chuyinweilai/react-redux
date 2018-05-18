@@ -1,0 +1,230 @@
+.Motion-Box input{
+  color: white;
+  background: rgba(0, 160, 233, 0.19);
+  border: 1px solid #04a3fe;
+}
+
+.Motion-Box .ant-input-suffix i{
+  color: white
+}
+
+.motion-messCard{
+  height: 4.29rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.motion-messCard img{
+  display: block;
+  width: 1.62rem;
+  height: 1.62rem;
+  background: #fff;
+  margin: 0 .2rem;
+  border-radius: 50%;
+}
+
+.motion-messCard ul{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.motion-messCard ul>li{
+  display: flex;
+  width: 50%;
+  height:.7rem;
+  color: #fff;
+  text-align: center;
+  font-size: .2rem;
+  line-height: .7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.motion-messCard .Mobile{
+  display: inline-block;
+	width: 1.9rem;
+	height: .5rem;
+	background-color: rgba(28, 125, 250, 0.1);
+  border: solid 1px #1c7dfa;
+  border-radius: 5px;
+  line-height: .5rem;
+}
+
+.motion-messCard .Live-Status{
+  display: inline-block;
+	width: 1.9rem;
+	height: .5rem;
+	background-color: rgba(82, 214, 105, 0.1);
+	border: solid 1px #52d669;
+  border-radius: 5px;
+  line-height: .5rem;
+}
+
+.motion-times{
+  height: 4.5rem;
+  padding: .2rem;
+}
+
+.motion-button{
+  height: .5rem;
+}
+
+.motion-list{
+  height: 5rem;
+  margin-top: .4rem;
+  white-space:nowrap;
+  overflow: auto;
+}
+
+.Time-Line-Box{
+  display: flex;
+  flex-direction: row;
+}
+
+.Time-Line-List{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 4.5rem;
+}
+
+.Time-Line{
+  /* height: 21px; */
+  position: absolute;
+  right: 20px;
+  color: white;
+}
+
+.Time-Line-Top{
+  display: flex;
+  flex-direction: row;
+}
+
+.Time-Line-Top li{
+  float: left;
+  width: 1.73rem;
+  height: 1rem;
+  margin: 0 .1rem;
+  color: white;
+  padding-bottom: .28rem;
+}
+
+.Time-Line-Top .Top-Line{
+  width: 1.73rem;
+  line-height: .35rem;
+  font-size: .16rem;
+  text-align: center;
+  padding: 0;
+}
+
+.Time-Line-Top .Bottom-Line{
+  width: 1.73rem;
+  line-height: .35rem;
+  font-size: .18rem;
+  text-align: center;
+  padding: 0;
+}
+
+.Time-Line-Bottom{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Time-Line-Bottom li{
+  display: flex;
+  flex: 1;
+  max-width: 1.73rem;
+  color: white;
+  flex-direction: column;
+  padding-top: .28rem;
+}
+
+.Time-Line-Bottom .Top-Line{
+  width: 100%;
+  line-height: .35rem;
+  font-size: .16rem;
+  text-align: center;
+  padding: 0;
+}
+
+.Time-Line-Bottom .Bottom-Line{
+  width: 100%;
+  line-height: .35rem;
+  font-size: .18rem;
+  text-align: center;
+  padding: 0;
+}
+
+.Time-Box-Red1{
+  background: url('./../../../assert/img/TimeBoxRed1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Box-Blue1{
+  background: url('./../../../assert/img/TimeBoxBlue1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Box-Green1{
+  background: url('./../../../assert/img/TimeBoxGreen1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Box-Red2{
+  background: url('./../../../assert/img/TimeBoxRed2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Box-Blue2{
+  background: url('./../../../assert/img/TimeBoxBlue2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Box-Green2{
+  background: url('./../../../assert/img/TimeBoxGreen2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Line div{
+  color: white;
+  padding-left: .2rem;
+  line-height: .24rem;
+}
+
+.Time-Line-1{
+  background: url('./../../../assert/img/time1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Line-2{
+  background: url('./../../../assert/img/time2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Line-3{
+  background: url('./../../../assert/img/time3.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.Time-Line-4{
+  background: url('./../../../assert/img/time4.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+/* 16 * 9 */
+.motionTracking-modal{
+  width: 8rem;
+  height: 4.5rem;
+
+}
+.motionTracking-modal img{
+  width: 100%;
+  height: 100%;
+}

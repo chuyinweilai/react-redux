@@ -1,0 +1,45 @@
+
+/* 1 */
+.WarningProportion-Tooltip{
+  font-size: 0.24rem;
+  font-weight: 600;
+  font-family : '微软雅黑';
+}
+.WarningProportion-Point{
+  display: inline-block;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  margin-right: 0.1rem;
+}
+.WarningProportion-ChartsBox{
+  width: 100%;
+  height: 3rem
+}
+
+
+/* 2 */
+
+.WarningTips-List{
+  height: 3rem;
+  display: flex;
+  padding: 0.5rem;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: left;
+}
+
+.WarningTips-Contant{
+  display: flex;
+  flex: 1;
+  min-width: 	2rem;
+  height: 2rem;
+  border-right: 1px solid #fff;
+  padding: 0 1rem;
+  font-size: .18rem;
+  line-height: .5rem;
+  color: #ccc;
+  justify-content: center;
+  align-items: center;
+}

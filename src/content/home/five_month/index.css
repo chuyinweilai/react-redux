@@ -1,0 +1,10 @@
+.FiveMonth{
+  margin-top: .35rem;
+  height: 4.5rem;
+  background: url('./../../../assert/img/home-7.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.FiveMonth .Part-Title{
+  padding-left: .1rem;
+}

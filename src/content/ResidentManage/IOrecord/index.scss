@@ -1,0 +1,82 @@
+
+.IOrecord-More{
+  margin-bottom: .4rem;
+  text-align: right;
+}
+
+.IOrecord-Door{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.IOrecord-Door-List{
+  width: 3rem;
+}
+
+.IOrecord-Door-title{
+  color: white;
+  font-size: 0.24rem;
+  font-weight: 500;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.19);
+  padding: 0.2rem 0 0.2rem 0
+}
+
+.IOrecord-Door-Bottom{
+  background: rgba(0, 0, 0, 0.12);
+  color: white;
+  height: 2.3rem;
+  padding: .2rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+
+.card-list-title{
+  font-size: .2rem;
+  margin: .1rem 0;
+  font-weight: 600;
+}
+
+.card-num{
+  text-align: right;
+  font-size: .2rem;
+  padding-right: .06rem;
+  margin: .1rem 0;
+  color: #13a7ec;
+  font-weight: 600;
+}
+
+.card-change-num{
+  text-align: left;
+  font-size: .2rem;
+  margin: .1rem 0;
+}
+
+.card-tag{
+  font-size: .16rem;
+  color: white;
+}
+
+.IOrecord-title{
+  color: white;
+  font-weight: 600;
+  font-size: .24rem;
+  margin-bottom: .4rem;
+}
+
+/* 详情页 */
+.IOrecord-detail-button{
+  margin-bottom: .4rem;
+}
+
+
+/* 16 * 9 */
+.IOrecord-modal{
+  width: 8rem;
+  height: 4.5rem;
+
+}
+.IOrecord-modal img{
+  width: 100%;
+  height: 100%;
+}

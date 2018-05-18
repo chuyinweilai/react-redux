@@ -1,0 +1,82 @@
+.WarningCard-No{
+  font-size: .2rem;
+  font-weight: 500;
+  margin-top: .2rem;
+  margin-bottom: .1rem;
+}
+
+.WarningCard{
+  background: url('./../../../../assert/img/home-2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.WarningCard .Part-Title{
+  padding-left: .75rem;
+}
+
+.WarningCard-Box{
+  height: 6rem;
+  flex-direction: column;
+}
+
+
+.WarningCard-List{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.WarningCard-Li{
+  position: relative;
+  height: 2.3rem;
+  border: 1px solid #1c7dfa;
+}
+
+.WarningCard-Image{
+  width: 100%;
+  height: 2.3rem;
+  display: flex;
+}
+
+.WarningCard-Title{
+  width: 100%;
+  height: .54rem;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  padding-left: .23rem;
+  color: #fff;
+  font-size: .19rem;
+  line-height: .54rem;
+	font-weight: normal;
+	font-stretch: normal;
+}
+
+.WarningCard-Bottom-Tag{
+  display: flex;
+  flex-direction: Row;
+  justify-content:space-between;
+}
+
+.WarningCard-Status-Tag{
+  display: inline-block;
+	background-color: rgba(74, 202, 203, 0.05);
+	border-radius: 5px;
+  border: solid 1px rgba(28, 125, 250, 0.54);
+  text-align: center;
+  margin: .2rem 0 0 .33rem;
+  padding: .05rem .15rem;
+  color: #eee;
+}
+
+.WarningCard-Link-Tag{
+  display: inline-block;
+	background-color: rgba(82, 214, 105, 0.1);
+	border-radius: 5px;
+	border: solid 1px #52d669;
+  text-align: center;
+  margin: .2rem .2rem 0 .33rem;
+  padding: .05rem .15rem;
+  color: white;
+}

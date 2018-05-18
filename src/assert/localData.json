@@ -1,0 +1,234 @@
+{
+    "local_areas": [
+        { "areas": 1, "apt_build": 1 },
+        { "areas": 1, "apt_build": 2 },
+        { "areas": 1, "apt_build": 3 },
+        { "areas": 2, "apt_build": 4 },
+        { "areas": 2, "apt_build": 5 },
+        { "areas": 2, "apt_build": 6 },
+        { "areas": 3, "apt_build": 7 },
+        { "areas": 3, "apt_build": 8 },
+
+        { "areas": 4, "apt_build": 9 },
+        { "areas": 4, "apt_build": 10 },
+        { "areas": 4, "apt_build": 11 },
+
+        { "areas": 5, "apt_build": 12 },
+        { "areas": 5, "apt_build": 13 },
+        { "areas": 5, "apt_build": 14 },
+        { "areas": 6, "apt_build": 15 },
+        { "areas": 6, "apt_build": 16 },
+
+        { "areas": 7, "apt_build": 18 },
+        { "areas": 7, "apt_build": 19 },
+
+        { "areas": 7, "apt_build": 20 },
+        { "areas": 8, "apt_build": 21 },
+        { "areas": 8, "apt_build": 22 },
+        { "areas": 8, "apt_build": 23 },
+        { "areas": 9, "apt_build": 24 },
+        { "areas": 9, "apt_build": 25 },
+
+        { "areas": 10, "apt_build": 28 },
+        { "areas": 10, "apt_build": 29 },
+        { "areas": 10, "apt_build": 30 },
+
+        { "areas": 13, "apt_build": 32 },
+        { "areas": 13, "apt_build": 34 },
+        { "areas": 13, "apt_build": 34 },
+        { "areas": 11, "apt_build": 35 },
+        { "areas": 11, "apt_build": 36 },
+        { "areas": 12, "apt_build": 37 },
+        { "areas": 12, "apt_build": 38 },
+
+        { "areas": 15, "apt_build": 39 },
+        { "areas": 15, "apt_build": 40 },
+        { "areas": 15, "apt_build": 41 },
+        { "areas": 15, "apt_build": 42 },
+
+        { "areas": 14, "apt_build": 43 },
+        { "areas": 14, "apt_build": 44 },
+        { "areas": 14, "apt_build": 45 },
+        { "areas": 14, "apt_build": 46 },
+        { "areas": 14, "apt_build": 47 },
+        { "areas": 14, "apt_build": 48 },
+
+        { "areas": 16, "apt_build": 51 },
+
+        { "areas": 19, "apt_build": 53 },
+
+        { "areas": 18, "apt_build": 54 },
+
+        { "areas": 17, "apt_build": 55 },
+
+        { "areas": 24, "apt_build": 58 },
+        { "areas": 24, "apt_build": 59 },
+        { "areas": 24, "apt_build": 60 },
+        { "areas": 24, "apt_build": 61 },
+
+        { "areas": 20, "apt_build": 62 },
+        { "areas": 20, "apt_build": 63 },
+
+        { "areas": 21, "apt_build": 64 },
+
+        { "areas": 22, "apt_build": 65 },
+
+        { "areas": 23, "apt_build": 66 },
+
+        { "areas": 26, "apt_build": 68 },
+        { "areas": 26, "apt_build": 69 },
+        { "areas": 26, "apt_build": 70 },
+
+        { "areas": 25, "apt_build": 71 },
+        { "areas": 25, "apt_build": 72 },
+        { "areas": 25, "apt_build": 73 },
+        { "areas": 25, "apt_build": 74 },
+        { "areas": 25, "apt_build": 75 },
+        { "areas": 25, "apt_build": 76 },
+
+        { "areas": 27, "apt_build": 82 },
+        { "areas": 27, "apt_build": 83 },
+        { "areas": 27, "apt_build": 84 },
+
+        { "areas": 28, "apt_build": 85 },
+        { "areas": 28, "apt_build": 86 },
+
+        { "areas": 29, "apt_build": 87 },
+        { "areas": 29, "apt_build": 88 },
+
+        { "areas": 30, "apt_build": 83 },
+        { "areas": 30, "apt_build": 90 },
+        { "areas": 30, "apt_build": 91 },
+
+        { "areas": 31, "apt_build": 92 },
+        { "areas": 31, "apt_build": 93 },
+        { "areas": 31, "apt_build": 94 },
+
+        { "areas": 32, "apt_build": 95 },
+        { "areas": 32, "apt_build": 96 },
+
+        { "areas": 33, "apt_build": 97 },
+        { "areas": 33, "apt_build": 98 },
+
+        { "areas": 34, "apt_build": 99 },
+        { "areas": 34, "apt_build": 100 },
+        { "areas": 34, "apt_build": 101 },
+
+        { "areas": 35, "apt_build": 102 },
+        { "areas": 35, "apt_build": 103 },
+        { "areas": 35, "apt_build": 104 },
+
+        { "areas": 36, "apt_build": 105 },
+        { "areas": 36, "apt_build": 106 },
+
+        { "areas": 37, "apt_build": 107 },
+        { "areas": 37, "apt_build": 108 },
+
+        { "areas": 38, "apt_build": 109 },
+        { "areas": 38, "apt_build": 110 },
+        { "areas": 38, "apt_build": 111 },
+
+        { "areas": 39, "apt_build": 112 },
+        { "areas": 39, "apt_build": 113 },
+        { "areas": 39, "apt_build": 114 },
+        { "areas": 39, "apt_build": 115 },
+        { "areas": 39, "apt_build": 116 },
+        { "areas": 39, "apt_build": 117 },
+
+        { "areas": 44, "apt_build": 118 },
+        { "areas": 44, "apt_build": 119 },
+
+        { "areas": 45, "apt_build": 121 },
+        { "areas": 45, "apt_build": 122 },
+        { "areas": 45, "apt_build": 123 },
+        { "areas": 45, "apt_build": 124 },
+
+        { "areas": 43, "apt_build": 125 },
+        { "areas": 43, "apt_build": 126 },
+        { "areas": 43, "apt_build": 127 },
+
+        { "areas": 46, "apt_build": 128 },
+        { "areas": 46, "apt_build": 129 },
+        { "areas": 46, "apt_build": 130 },
+        { "areas": 46, "apt_build": 131 },
+
+        { "areas": 42, "apt_build": 132 },
+        { "areas": 42, "apt_build": 133 },
+        { "areas": 42, "apt_build": 134 },
+        { "areas": 42, "apt_build": 135 },
+
+        { "areas": 41, "apt_build": 136 },
+        { "areas": 41, "apt_build": 137 },
+        { "areas": 41, "apt_build": 138 },
+        { "areas": 41, "apt_build": 139 },
+        { "areas": 41, "apt_build": 140 },
+
+        { "areas": 40, "apt_build": 141 },
+        { "areas": 40, "apt_build": 142 },
+        { "areas": 40, "apt_build": 143 },
+        { "areas": 40, "apt_build": 144 },
+
+        { "areas": "specail", "apt_build": 17, "areaMess": "门卫" },
+        { "areas": "specail", "apt_build": 48, "areaMess": "居委会" },
+        { "areas": "specail", "apt_build": 56, "areaMess": "地下车库" },
+        { "areas": "specail", "apt_build": 57, "areaMess": "门卫" },
+        { "areas": "specail", "apt_build": 77, "areaMess": "变电所" },
+        { "areas": "specail", "apt_build": 78, "areaMess": "变电所" },
+        { "areas": "specail", "apt_build": 79, "areaMess": "集中绿化" },
+        { "areas": "specail", "apt_build": 80, "areaMess": "儿童游乐场" },
+        { "areas": "specail", "apt_build": 81, "areaMess": "变电所" },
+        { "areas": "specail", "apt_build": 120, "areaMess": "二期地下车库" },
+        { "areas": "specail", "apt_build": 0, "areaMess": "幼儿园" }
+    ],
+    "local_position": [
+        { "areas": 1, "pos_x": "19rem", "pos_y": "0.2rem" },
+        { "areas": 2, "pos_x": "27rem", "pos_y": "1.4rem" },
+        { "areas": 3, "pos_x": "33rem", "pos_y": "4.5rem" },
+        { "areas": 4, "pos_x": "17rem", "pos_y": "3rem" },
+        { "areas": 5, "pos_x": "25rem", "pos_y": "5rem" },
+        { "areas": 6, "pos_x": "33rem", "pos_y": "8rem" },
+        { "areas": 7, "pos_x": "17rem", "pos_y": "6rem" },
+        { "areas": 8, "pos_x": "", "pos_y": "" },
+        { "areas": 9, "pos_x": "", "pos_y": "" },
+        { "areas": 10, "pos_x": "", "pos_y": "" },
+        { "areas": 11, "pos_x": "", "pos_y": "" },
+        { "areas": 12, "pos_x": "", "pos_y": "" },
+        { "areas": 13, "pos_x": "", "pos_y": "" },
+        { "areas": 14, "pos_x": "", "pos_y": "" },
+        { "areas": 15, "pos_x": "", "pos_y": "" },
+        { "areas": 16, "pos_x": "", "pos_y": "" },
+        { "areas": 17, "pos_x": "", "pos_y": "" },
+        { "areas": 18, "pos_x": "", "pos_y": "" },
+        { "areas": 19, "pos_x": "", "pos_y": "" },
+        { "areas": 20, "pos_x": "", "pos_y": "" },
+        { "areas": 21, "pos_x": "", "pos_y": "" },
+        { "areas": 22, "pos_x": "", "pos_y": "" },
+        { "areas": 23, "pos_x": "", "pos_y": "" },
+        { "areas": 24, "pos_x": "", "pos_y": "" },
+        { "areas": 25, "pos_x": "", "pos_y": "" },
+        { "areas": 26, "pos_x": "", "pos_y": "" },
+        { "areas": 27, "pos_x": "", "pos_y": "" },
+        { "areas": 28, "pos_x": "", "pos_y": "" },
+        { "areas": 29, "pos_x": "", "pos_y": "" },
+        { "areas": 30, "pos_x": "", "pos_y": "" },
+        { "areas": 31, "pos_x": "", "pos_y": "" },
+        { "areas": 32, "pos_x": "", "pos_y": "" },
+        { "areas": 33, "pos_x": "", "pos_y": "" },
+        { "areas": 34, "pos_x": "", "pos_y": "" },
+        { "areas": 35, "pos_x": "", "pos_y": "" },
+        { "areas": 36, "pos_x": "", "pos_y": "" },
+        { "areas": 37, "pos_x": "", "pos_y": "" },
+        { "areas": 38, "pos_x": "", "pos_y": "" },
+        { "areas": 39, "pos_x": "", "pos_y": "" },
+        { "areas": 40, "pos_x": "", "pos_y": "" },
+        { "areas": 41, "pos_x": "", "pos_y": "" },
+        { "areas": 42, "pos_x": "", "pos_y": "" },
+        { "areas": 43, "pos_x": "", "pos_y": "" },
+        { "areas": 44, "pos_x": "", "pos_y": "" },
+        { "areas": 45, "pos_x": "", "pos_y": "" },
+        { "areas": 46, "pos_x": "", "pos_y": "" },
+        { "areas": 47, "pos_x": "", "pos_y": "" },
+        { "areas": 48, "pos_x": "", "pos_y": "" }
+
+    ]
+}

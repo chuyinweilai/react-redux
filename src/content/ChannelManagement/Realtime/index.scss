@@ -1,0 +1,160 @@
+
+.Realtime-topCard{
+  padding: 0 1.5rem;
+  margin-top: .3rem;
+}
+
+.Realtime-topCard-title{
+  color: white;
+  font-size: 0.4rem;
+  font-weight: 500;
+  text-align: center;
+  background: #13a7ec;
+  padding: 0.2rem 0 0.4rem 0
+}
+
+.Realtime-topCard-Bottom{
+  background: #eee;
+  height: 2.3rem;
+  padding: .1rem;
+}
+
+.Realtime-topCard-Bottom-1{
+  font-size: .4rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0.2rem 0;
+  color: #ff6666;
+}
+
+.Realtime-topCard-Bottom-2{
+  font-size: 0.2rem;
+  text-align: right;
+  color: gray;
+}
+
+
+.Realtime-topCard-Bottom span{
+  font-weight: 600;
+  font-size: 0.2rem;
+  color: #13a7ec;
+}
+
+/* 底部 */
+.IntradayWarning-Bottom{
+  margin-top: .3rem;
+  padding-bottom: .2rem;
+  background: url('./../../../assert/img/warning-1.png') no-repeat top;
+  background-size: 100% 100%;
+}
+
+.IntradayWarning-Bottom{
+  h3{
+    height: .42rem;
+    line-height: .42rem;
+    color: white;
+    margin-left: .8rem;
+    font-size: .25rem;
+  }
+
+  .Button{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    padding-top: .1rem;
+  }
+
+  .Table{
+    margin: .2rem 0.04rem;
+  }
+}
+
+/* 弹窗样式 */
+
+.Realtime-Modal-Message{
+  height: 3rem; 
+  border-radius:2px; 
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+
+.Realtime-Modal-Image{
+  width: 100%;
+  padding: .1rem 0;
+  display: block;
+  border-bottom: 2px solid #337ab7
+}
+
+.Realtime-Modal-Detail{
+  flex:1;
+  align-items: center;
+}
+
+.Realtime-Modal-Reason{
+  height: 3rem; 
+}
+
+.Realtime-Modal-Button{
+  border:1px solid #eee;
+  margin-top: .1rem;
+  width: 100%;
+  height: .4rem;
+  font-size: .18rem;
+}
+
+.Realtime-Modal-Button .fa{
+  font-size: .2rem;
+  color: #fff;
+  margin-right: .1rem;
+}
+
+.radioStyle{
+  display: block;
+  height: .3rem;
+  line-height: .3rem;
+}
+
+.Realtime-Modal-Input{
+  font-size: .14rem;
+  border: 2px solid #ccc;
+}
+
+
+// 详情页
+.Realtime-detail-search{
+  justify-content: flex-end;
+  height: 32; 
+  margin-bottom: .2rem;
+
+  input{
+    color: white;
+    background: rgba(0, 160, 233, 0.19);
+    border: 1px solid #04a3fe;
+  }
+  .ant-input-suffix i{
+    color: white
+  }
+}
+
+// style={{justifyContent:'flex-end', marginBottom: '.2rem'}}
+.Realtime-detail-datepicker{
+  justify-content: flex-end;
+  margin-bottom: .2rem;
+
+  input{
+    color: white;
+    background: rgba(0, 160, 233, 0.19);
+    border: 1px solid #04a3fe;
+  }
+
+  .ant-calendar-picker-icon::after{
+    color: white
+  }
+}
+
+.ant-calendar{
+  border: 2px solid #04a3fe;
+}
